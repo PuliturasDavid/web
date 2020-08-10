@@ -289,8 +289,11 @@ a{
     }
 }
 
-
 @media (max-width: 550px){
+
+    .nav-menu-rigth{
+        margin: -200px;
+    }
     .cards{
         grid-template-columns: repeat(1, 1fr);
     }
