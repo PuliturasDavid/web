@@ -28,12 +28,14 @@ body{
 
 .navegacion{
     margin-top: 10px;
+    right: -20px;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     padding: 10px 0;
+   
 }
 
 .imglogo{
@@ -48,8 +50,8 @@ nav ul li{
 }
 
 .listas{
-    flex: 1;
-    margin-left: 30px;
+    /*flex: 1;*/
+    margin-left: auto;
 }
 
 .navegacion ul li a:hover{
@@ -64,6 +66,9 @@ a{
     color: gold;
     text-decoration: none;
 }
+nav i{
+    padding: 0 5px;
+}
 
 .boton-barras{
     position: absolute;
@@ -75,7 +80,11 @@ a{
 }
 
 .nav-menu-rigth{
-    margin-right: 30px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.nav-menu-rigth li{
+    padding: 5px;
 }
 
 /*ShowCase*/
@@ -93,10 +102,10 @@ a{
     font-size: 30px;
 }
 
-.ShowCase .titulo1{
+/*.ShowCase .titulo1{
     padding: 10px;
     height: auto
-}
+}*/
 
 .titulo1 p{
    margin: 20px;
